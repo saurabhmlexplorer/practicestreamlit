@@ -22,14 +22,14 @@ if selected1 == "Contact":
 
 # 2. as horizontal menu
 # with st.sidebar: 
-  selected2 = option_menu(
-    menu_title = "Main Menu",
-    options = ["Home", "Projects", "Contact"],
-    icons = ["house", "book", "envelop"],
-    menu_icon = "cast",
-    default_index = 0,
-    orinetation = "horizontal",
-  )
+selected2 = option_menu(
+  menu_title = "Main Menu",
+  options = ["Home", "Projects", "Contact"],
+  icons = ["house", "book", "envelop"],
+  menu_icon = "cast",
+  default_index = 0,
+  orinetation = "horizontal",
+)
 
 if selected2 == "Home":
   st.title(f"You have selected {selected2}")
