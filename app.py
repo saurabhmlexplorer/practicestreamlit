@@ -4,7 +4,7 @@ from streamlit_option_menu import option_menu
 st.header("Learning")
 st.write("Creating navigation bar")
 
-'''
+
 # Sidebar menu (Commented out)
 with st.sidebar: 
     selected1 = option_menu(
@@ -18,7 +18,7 @@ if selected1 == "Projects":
     st.title(f"You have selected {selected1}")
 if selected1 == "Contact":
     st.title(f"You have selected {selected1}")
-'''
+
 
 # Horizontal menu
 selected2 = option_menu(
