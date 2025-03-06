@@ -21,7 +21,7 @@ if selected1 == "Contact":
 '''
 
 # 2. as horizontal menu
-with st.sidebar: 
+# with st.sidebar: 
   selected2 = option_menu(
     menu_title = "Main Menu",
     options = ["Home", "Projects", "Contact"],
