@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_otion_menu import option_menu
+from streamlit_option_menu import option_menu
 
 st.header("Learning")
 st.write("Creating navigation bar")
