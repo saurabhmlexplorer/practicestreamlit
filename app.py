@@ -11,17 +11,17 @@ with st.sidebar:
     options = ["Home", "Projects", "Contact"],
   )
 
-if selected == "Home":
-  st.title(f"You have selected {selected}")
+if selected1 == "Home":
+  st.title(f"You have selected {selected1}")
 if selected == "Projects":
-  st.title(f"You have selected {selected}")
+  st.title(f"You have selected {selected1}")
 if selected == "Contact":
-  st.title(f"You have selected {selected}")
+  st.title(f"You have selected {selected1}")
 
 
 # 2. as horizontal menu
 with st.sidebar: 
-  selected = option_menu(
+  selected2 = option_menu(
     menu_title = "Main Menu",
     options = ["Home", "Projects", "Contact"],
     icons = ["house", "book", "envelop"],
@@ -31,8 +31,8 @@ with st.sidebar:
   )
 
 if selected == "Home":
-  st.title(f"You have selected {selected}")
+  st.title(f"You have selected {selected2}")
 if selected == "Projects":
-  st.title(f"You have selected {selected}")
+  st.title(f"You have selected {selected2}")
 if selected == "Contact":
-  st.title(f"You have selected {selected}")
+  st.title(f"You have selected {selected2}")
