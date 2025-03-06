@@ -6,16 +6,16 @@ st.write("Creating navigation bar")
 
 # 1. as sidebar menu
 with st.sidebar: 
-  selected = option_menu(
+  selected1 = option_menu(
     menu_title = "Main Menu",
     options = ["Home", "Projects", "Contact"],
   )
 
 if selected1 == "Home":
   st.title(f"You have selected {selected1}")
-if selected == "Projects":
+if selected1 == "Projects":
   st.title(f"You have selected {selected1}")
-if selected == "Contact":
+if selected1 == "Contact":
   st.title(f"You have selected {selected1}")
 
 
@@ -30,9 +30,9 @@ with st.sidebar:
     orinetation = "horizontal",
   )
 
-if selected == "Home":
+if selected2 == "Home":
   st.title(f"You have selected {selected2}")
-if selected == "Projects":
+if selected2 == "Projects":
   st.title(f"You have selected {selected2}")
-if selected == "Contact":
+if selected2 == "Contact":
   st.title(f"You have selected {selected2}")
