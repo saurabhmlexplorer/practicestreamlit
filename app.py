@@ -28,7 +28,7 @@ selected2 = option_menu(
   icons = ["house", "book", "envelop"],
   menu_icon = "cast",
   default_index = 0,
-  orinetation = "horizontal",
+  orientation = "horizontal",
 )
 
 if selected2 == "Home":
